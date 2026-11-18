@@ -1,0 +1,12 @@
+tag,platform,latency_us
+lobL_deeplob_fp32,GPU median,1110.4
+lobL_deeplob_fp32,GPU p99,18054
+lobL_deeplob_fp32,CPU median,3510.5
+lobL_deeplob_fp32,CPU p99,10180.4
+lobL_light_fp32,CPU median,454.6
+lobL_light_fp32,CPU p99,13249.9
+lobL_light_fp32,GPU median,552.8
+lobL_light_fp32,GPU p99,16670
+lobL_light_w4a4,FPGA accel median,563.1
+lobL_light_w4a4,FPGA accel p99,652.4
+lobL_light_w4a4,FPGA end-to-end,1915

@@ -1,0 +1,5 @@
+tag,platform,latency_us
+lob_light_w4a4_k10_s0,PYNQ-Z2 FPGA,REPLACE_WITH_MEASURED
+lob_light_w8a8_k10_s0,PYNQ-Z2 FPGA,REPLACE_WITH_MEASURED
+lob_light_fp32_k10_s0,Jetson Orin Nano,REPLACE_WITH_MEASURED
+lob_deeplob_fp32_k10_s0,GPU,REPLACE_WITH_MEASURED

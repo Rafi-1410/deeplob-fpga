@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "deeplob-fpga: latency-consistent evaluation and FPGA deployment of deep limit order book models"
+authors:
+  - family-names: Cahyafazri
+    given-names: Muhamad Rafi
+version: 0.1.0
+date-released: 2026-11-18
+license: MIT

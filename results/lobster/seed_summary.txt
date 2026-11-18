@@ -1,0 +1,37 @@
+
+lobL_deeplob_fp32
+  zero delay                    65.4 ± 2.4 (n=3)
+  GPU median (1110.4 us)        58.2 ± 2.1 (n=3)
+  CPU median (3510.5 us)        51.1 ± 1.7 (n=3)
+  CPU p99 (10180.4 us)          48.6 ± 1.4 (n=3)
+  GPU p99 (18054 us)            48.0 ± 1.4 (n=3)
+
+lobL_deeplob_fp32_d1110
+  zero delay                    63.1 ± 0.8 (n=3)
+  GPU median (1110.4 us)        58.9 ± 1.0 (n=3)
+  CPU median (3510.5 us)        52.0 ± 0.8 (n=3)
+  CPU p99 (10180.4 us)          49.1 ± 0.9 (n=3)
+  GPU p99 (18054 us)            48.3 ± 0.8 (n=3)
+
+lobL_light_fp32
+  zero delay                    57.2 ± 2.3 (n=3)
+  CPU median (454.6 us)         56.0 ± 1.6 (n=3)
+  GPU median (552.8 us)         55.4 ± 1.5 (n=3)
+  CPU p99 (13249.9 us)          43.6 ± 1.1 (n=3)
+  GPU p99 (16670 us)            43.6 ± 1.1 (n=3)
+
+lobL_light_w4a4
+  zero delay                    56.1 ± 1.1 (n=3)
+  FPGA accel median (563.1 us)  54.1 ± 0.8 (n=3)
+  FPGA accel p99 (652.4 us)     53.4 ± 0.8 (n=3)
+  FPGA end-to-end (1915 us)     46.7 ± 0.9 (n=3)
+
+lobL_light_w4a4_d563
+  zero delay                    56.8 ± 0.0 (n=1)
+  FPGA accel median (563.1 us)  55.2 ± 0.0 (n=1)
+  FPGA accel p99 (652.4 us)     54.5 ± 0.0 (n=1)
+  FPGA end-to-end (1915 us)     47.5 ± 0.0 (n=1)
+
+Latency-aware training, paired by seed:
+  lobL_deeplob_fp32_d1110 vs lobL_deeplob_fp32 at 1110.4 us: +0.7 ± 2.3 points (per seed: +2.0, -1.9, +2.1)
+  lobL_light_w4a4_d563 vs lobL_light_w4a4 at 563.1 us: +0.2 ± 0.0 points (per seed: +0.2)

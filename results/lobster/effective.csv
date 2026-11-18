@@ -1,0 +1,32 @@
+tag,platform,latency_us,effective_f1,f1_at_zero_delay
+lobL_deeplob_fp32_s1,GPU median,1110.4,0.6038,0.67815
+lobL_deeplob_fp32_d1110_s2,GPU median,1110.4,0.60012,0.6384
+lobL_deeplob_fp32_d1110_s1,GPU median,1110.4,0.58517,0.63034
+lobL_deeplob_fp32_d1110,GPU median,1110.4,0.58207,0.62336
+lobL_deeplob_fp32_s2,GPU median,1110.4,0.57958,0.65304
+lobL_light_fp32_s1,CPU median,454.6,0.5755,0.59255
+lobL_light_fp32_s1,GPU median,552.8,0.56849,0.59255
+lobL_deeplob_fp32,GPU median,1110.4,0.56177,0.6311
+lobL_light_fp32,CPU median,454.6,0.56091,0.57664
+lobL_light_fp32,GPU median,552.8,0.55327,0.57664
+lobL_light_w4a4_d563,FPGA accel median,563.1,0.55153,0.56802
+lobL_light_w4a4,FPGA accel median,563.1,0.54928,0.56998
+lobL_light_fp32_s2,CPU median,454.6,0.54378,0.54794
+lobL_light_w4a4,FPGA accel p99,652.4,0.54312,0.56998
+lobL_light_w4a4_s1,FPGA accel median,563.1,0.53927,0.56393
+lobL_light_fp32_s2,GPU median,552.8,0.53889,0.54794
+lobL_light_w4a4_s2,FPGA accel median,563.1,0.53367,0.54937
+lobL_light_w4a4_s1,FPGA accel p99,652.4,0.53189,0.56393
+lobL_light_w4a4_s2,FPGA accel p99,652.4,0.52743,0.54937
+lobL_deeplob_fp32,CPU median,3510.5,0.49556,0.6311
+lobL_light_w4a4,FPGA end-to-end,1915.0,0.47731,0.56998
+lobL_deeplob_fp32,CPU p99,10180.4,0.47531,0.6311
+lobL_deeplob_fp32,GPU p99,18054.0,0.46817,0.6311
+lobL_light_w4a4_s2,FPGA end-to-end,1915.0,0.46476,0.54937
+lobL_light_w4a4_s1,FPGA end-to-end,1915.0,0.46025,0.56393
+lobL_light_fp32_s1,CPU p99,13249.9,0.44796,0.59255
+lobL_light_fp32_s1,GPU p99,16670.0,0.44789,0.59255
+lobL_light_fp32,GPU p99,16670.0,0.43377,0.57664
+lobL_light_fp32,CPU p99,13249.9,0.43366,0.57664
+lobL_light_fp32_s2,CPU p99,13249.9,0.42686,0.54794
+lobL_light_fp32_s2,GPU p99,16670.0,0.42619,0.54794

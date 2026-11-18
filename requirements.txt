@@ -1,0 +1,10 @@
+# Python 3.10 or 3.11. For an NVIDIA GPU install torch from the CUDA index that matches
+# your driver first, e.g.:  pip install torch --index-url https://download.pytorch.org/whl/cu128
+torch>=2.2
+brevitas>=0.11
+numpy
+pandas
+scikit-learn
+matplotlib
+onnx
+onnxscript

@@ -1,0 +1,37 @@
+# data (download separately, see README; LOBSTER files must not be redistributed)
+/data/
+/lobster/
+/lobster_synth/
+*.npy
+*.zip
+
+# training outputs
+runs/
+logs/
+*.pt
+*.pth
+*.onnx
+*.npz
+results/latency/
+results/shift/
+results/measure*/
+
+# FINN / Vivado build outputs
+finn/output_*/
+output_*/
+*.bit
+*.hwh
+*.xclbin
+.Xil/
+*.jou
+*.log
+
+# python / editors
+__pycache__/
+*.pyc
+venv/
+.venv/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
