@@ -28,7 +28,7 @@ median (●) or p99 (✕) latency; ■ = FPGA including ARM-side I/O.*
 | DeepLOB, RTX 4090 GPU | 65.4 ± 2.4 | 58.2 ± 2.1 (1.11 ms) | 48.0 ± 1.4 (18.1 ms) |
 | LightLOB, 1 CPU core | 57.2 ± 2.3 | 56.0 ± 1.6 (0.45 ms) | 43.6 ± 1.1 (13.2 ms) |
 | LightLOB W4A4, FPGA accelerator | 56.1 ± 1.1 | 54.1 ± 0.8 (0.56 ms) | 53.4 ± 0.8 (0.65 ms) |
-| LightLOB W4A4, FPGA incl. ARM I/O | | 46.7 ± 0.9 (1.9 ms) | |
+
 
 * DeepLOB's 8.2-point lead at zero delay shrinks to 2.2 points at measured median latency; at the
   99th percentile the FPGA leads by 5.4 points, because its latency is deterministic.
